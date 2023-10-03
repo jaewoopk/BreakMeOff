@@ -1,13 +1,13 @@
-package com.jaewoopk.breakmeoff;
+package com.jaewoopk.trybank;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class BreakmeoffApplication {
+public class TryBankApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BreakmeoffApplication.class, args);
+		SpringApplication.run(TryBankApplication.class, args);
 	}
 
 }

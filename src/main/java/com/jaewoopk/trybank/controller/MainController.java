@@ -1,4 +1,4 @@
-package com.jaewoopk.breakmeoff.controller;
+package com.jaewoopk.trybank.controller;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;

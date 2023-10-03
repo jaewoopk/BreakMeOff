@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.jaewoopk</groupId>
-	<artifactId>BreakMeOff</artifactId>
+	<artifactId>TryBank</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>BreakMeOff</name>
-	<description>Demo project for Spring Boot</description>
+	<name>TryBank</name>
+	<description>은행의 기능들을 쉽게 접해보자! TryBank!</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>

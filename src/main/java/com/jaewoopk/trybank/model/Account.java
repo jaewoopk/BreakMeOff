@@ -1,4 +1,4 @@
-package com.jaewoopk.breakmeoff.model;
+package com.jaewoopk.trybank.model;
 
 import jakarta.persistence.*;
 import lombok.Data;

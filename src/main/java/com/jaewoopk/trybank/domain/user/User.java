@@ -34,25 +34,3 @@ public class User {
 
     // Getter, Setter, Constructors, equals, hashcode, etc...
 }
-
-enum RoleCode {
-    ADMIN,
-    REGULAR_CUSTOMER,
-    PREMIUM_CUSTOMER,
-    VIP_CUSTOMER,
-    BUSINESS_CUSTOMER
-}
-
-enum BankCode {
-    SINHAN,
-    WOORI,
-    KOOKMIN,
-    HANA,
-    KAKAO,
-    TOSS,
-    NOGHHYEOP,
-    JAEIL,
-    CITY,
-    OEHWAN,
-    KIUP
-}

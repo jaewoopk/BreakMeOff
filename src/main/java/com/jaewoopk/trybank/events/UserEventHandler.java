@@ -15,7 +15,7 @@ public class UserEventHandler {
     // 사용자가 생성되기 전에 실행될 로직
     @HandleBeforeCreate
     public void handleUserCreate(User user) {
-        UserDto userDTO = new UserDto(user);
+        //UserDto userDTO = new UserDto(user);
         // 예를 들어, 생성 전에 비밀번호를 암호화
         String encryptedPassword = " ";// 비밀번호 암호화 로직
         //user.setPassword(encryptedPassword);

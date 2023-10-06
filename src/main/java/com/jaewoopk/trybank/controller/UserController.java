@@ -14,7 +14,7 @@ public class UserController {
         return "user/signup";
     }
 
-    @RequestMapping("/idcheck")
+    //@RequestMapping("/idcheck")
 
 
 }

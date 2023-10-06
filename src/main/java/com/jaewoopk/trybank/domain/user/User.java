@@ -17,13 +17,6 @@ public class User {
 
     @Column(name = "USER_NAME", length = 20, nullable = false)
     private String name;
-
-    @Column(name = "BIRTHDAY", length = 8)
-    private String birthday;
-
-    @Column(name = "PHONENUMBER", length = 13)
-    private String phoneNumber;
-
     @Enumerated(EnumType.STRING)
     @Column(name = "ROLE_CODE")
     private RoleCode roleCode;
@@ -31,6 +24,4 @@ public class User {
     @Enumerated(EnumType.STRING)
     @Column(name = "BANK_CODE")
     private BankCode bankCode;
-
-    // Getter, Setter, Constructors, equals, hashcode, etc...
 }

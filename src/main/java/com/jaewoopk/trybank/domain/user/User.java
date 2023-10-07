@@ -12,11 +12,12 @@ public class User {
     @Column(name = "USER_ID")
     private Long id;
 
+    @Column(name = "USER_NAME", length = 20, nullable = false)
+    private String name;
+
     @Column(name = "USER_PASSWORD", length = 20, nullable = false)
     private String password;
 
-    @Column(name = "USER_NAME", length = 20, nullable = false)
-    private String name;
     @Enumerated(EnumType.STRING)
     @Column(name = "ROLE_CODE")
     private RoleCode roleCode;

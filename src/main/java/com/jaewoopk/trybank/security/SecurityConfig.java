@@ -1,4 +1,4 @@
-package com.jaewoopk.trybank.config;
+package com.jaewoopk.trybank.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.security.config.Customizer;

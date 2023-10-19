@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="TryBank:Web2 exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/TryBank_Web2_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="TryBank/web/Web2" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="TryBank" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>

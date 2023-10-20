@@ -1,10 +1,10 @@
-package com.jaewoopk.breakmeoff;
+package com.trybank;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BreakmeoffApplicationTests {
+class TrybankApplicationTests {
 
 	@Test
 	void contextLoads() {

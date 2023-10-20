@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Try Bank!</title>
+    <link rel="stylesheet" th:href="@{css/home.css}"/>
+</head>
+<body>
+<div class="container">
+    <div class="fade-in-content" data-delay="1">
+        <aside class="sidebar">
+            <div class="link-container">
+                <a href="https://github.com/junghyeonsu" target="_blank" class="link">GitHub<span class="yellow-point"></span></a>
+                <a href="https://www.linkedin.com/in/hyeonsu-jung-5483911a5/" target="_blank" class="link">LinkedIn<span class="yellow-point"></span></a>
+                <a href="https://junghyeonsu.tistory.com/" target="_blank" class="link">Tistory Blog<span class="yellow-point"></span></a>
+                <a href="https://velog.io/@junghyeonsu" target="_blank" class="link">Velog<span class="yellow-point"></span></a>
+                <a href="https://www.youtube.com/channel/UCkC6sYPPSvpnRprmp2GcXZw" target="_blank" class="link">YouTube<span class="yellow-point"></span></a>
+            </div>
+
+            <div class="bottom-container">
+                <a href="mailto:jung660317@naver.com" class="email">jung660317@naver.com</a>
+                <p class="last-updated" th:text="'Last update: ' + ${LAST_UPDATED}"></p>
+            </div>
+        </aside>
+    </div>
+
+<!--    <article class="main">-->
+<!--        <span class="fade-in-header-text" data-delay="1.5" class="sub-title">Try Bank!</span>-->
+
+<!--        <span class="fade-in-header-text" data-delay="1.9">-->
+<!--                <span class="title" th:text="${name}">대출과 예적금을</span> &lt;!&ndash; Assuming `name` is a variable from your model &ndash;&gt;-->
+<!--                <span class="sub-title">알아보자!</span>-->
+<!--            </span>-->
+
+<!--        <div class="fade-in-body-text" data-delay="2.6">-->
+<!--            <div class="body-text-container">-->
+<!--                <span class="body-text">프론트엔드 개발자를 희망하고 있습니다.</span>-->
+<!--                <span class="body-text">배운 모든 것을 기록하고 공유하는 것을 좋아합니다.</span>-->
+<!--                <span class="body-text">공유의 중요성을 잘 알기에 항상 새기고 실천하려고 노력합니다.</span>-->
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div>-->
+<!--            <div class="image-box">-->
+
+<!--            </div>-->
+<!--        </div>-->
+
+<!--        <div class="fade-in-content" data-delay="3.5">-->
+<!--            &lt;!&ndash; This part is a placeholder for the animated arrow icon. You can replace it with an appropriate icon or image. &ndash;&gt;-->
+<!--            <span class="down-animated-arrow"></span>-->
+<!--        </div>-->
+<!--    </article>-->
+</div>
+</body>
+</html>

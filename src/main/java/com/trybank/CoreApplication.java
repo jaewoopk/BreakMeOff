@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class TrybankApplication {
+public class CoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(TrybankApplication.class, args);
+		SpringApplication.run(CoreApplication.class, args);
 	}
 
 }
